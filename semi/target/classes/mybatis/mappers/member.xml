@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="mapper.member">
+	<resultMap type="memberVO" id="memResult">
+		<result property="id" column="id" />
+		<result property="pw" column="pw" />
+		<result property="name" column="name" />
+		<result property="date" column="date" />
+	</resultMap>
+	
+	<select id="selectAllMemberList" resultMap="memResult">
+		<![CDATA[
+			select * from member 
+		]]>
+	</select>
+	
+	<select id="login" resultType="String" parameterType="memberVO">
+		<![CDATA[
+			select name from member where id=#{id} and pw=#{pw}
+		]]>
+	</select>
+	
+	<select id="selectMemberById" resultMap="memResult" parameterType="String">
+		<![CDATA[
+			select * from member where id=#{id}
+		]]>
+	</select>
+	
+	<select id="selectMemberByPw"  resultMap="memResult" parameterType="String">
+		<![CDATA[
+			select * from member where pw=#{pw}
+		]]>
+	</select>
+	
+	<insert id="memberInsert"   parameterType="memberVO" >
+		<![CDATA[
+			insert into member(id,pw,name) 
+			values(#{id},#{pw},#{name})
+		]]>
+	</insert>
+	
+	<update  id="updateMember"  parameterType="memberVO" >
+		<![CDATA[
+			update member
+			set pw=#{pw}, name=#{name}
+			where id=#{id}
+		]]>
+	</update>
+	
+	<delete id="deleteMember" parameterType="String">
+		<![CDATA[
+			delete from member where id=#{id}
+		]]>
+	
+	</delete>
+	
+
+</mapper> 
