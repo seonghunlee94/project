@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<!-- 3D 랜더링 라이브러리 -->
+<script src="../gameJs/cannon.min.js"></script>
+<script src="../gameJs/Three.js"></script>
+
+<!-- Jquery 라이브러리 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+
+<!-- My JS -->
+<script src="../gameJs/blockGame.js" type="text/javascript"></script>
+<script src="../js/orientation.js" type="text/javascript"></script>
+
+<!-- My CSS -->
+<link href="../gameCss/blockGame.css" rel="stylesheet">
+<link href="../css/font.css" rel="stylesheet">
+<link href="../css/orientation.css" rel="stylesheet" />
+
+<title>kkwalla</title>
+</head>
+<body class="no-drag">
+	<div id="cover">가로모드는 지원하지 않습니다</div>
+	<div id="score">0</div>
+	<!-- 게임 설명 부분 -->
+	<div id="instructions">
+		<div class="content">
+			<svg class="svgPos" width="161" viewBox="0 0 161 66">
+				<defs>
+					<pattern id="water" width="0.25" height="1.1"
+					patternContentUnits="objectBoundingBox">
+						<path fill="orange"
+					d="M0.25,1H0c0,0,0-0.2,0-1c0.083-0.303,0.3,0.3,0.25,0C0.25,0.1,0.25,1,0.25,1z" />
+					</pattern>
+					<text id="play" transform="matrix(1 0 0 1 0 50)" font-size="50px">시 작 하 기</text>
+					<mask id="text_mask">
+						<use x="0" y="0" xlink:href="#play" opacity="1" fill="#ee9f01" />
+					</mask>
+				</defs>
+				<use x="0" y="0" xlink:href="#play" fill="#ffebc9" />
+				<rect class="water-fill" mask="url(#text_mask)" fill="url(#water)"
+					x="0" y="0" width="1600" height="100" />
+			</svg>
+		</div>
+		<div id="explain">타이밍에 맞춰 터치! 터치!</div>
+	</div>
+
+	<!-- 게임 종료 부분 -->
+	<div id="results">
+		<div class="content">
+			<svg width="161" viewBox="0 0 161 66">
+				<defs>
+					<pattern id="water2" width="0.25" height="1.1"
+					patternContentUnits="objectBoundingBox">
+						<path fill="orange"
+					d="M0.25,1H0c0,0,0-0.2,0-1c0.083-0.303,0.3,0.3,0.25,0C0.25,0.1,0.25,1,0.25,1z" />
+					</pattern>
+					<text id="replay" transform="matrix(1 0 0 1 0 50)" font-size="50px">다 시 하 기</text>
+					<mask id="text_mask2">
+						<use x="0" y="0" xlink:href="#replay" opacity="1" fill="#ee9f01" />
+					</mask>
+				</defs>
+				<use x="0" y="0" xlink:href="#replay" fill="#ffebc9" />
+				<rect class="water-fill2" mask="url(#text_mask2)"
+					fill="url(#water2)" x="0" y="0" width="1600" height="100" />
+			</svg>
+		</div>
+		<text id="home">메 인 화 면</text>
+		<img id="sound" src="../img/soundOn.svg" />
+	</div>
+	<img id="logo" src="../img/logo_yellow.svg" alt="../img/logo.png">
+	<audio id="stackSound" src="../gameAudio/stackSound.mp3" type="audio/mp3"></audio> 
+	<iframe allow="autoplay" hidden="true"></iframe>
+	<audio id="blockAudio" autoplay loop volume="0.3">
+		<source src="../gameAudio/blockBGM.mp3" type="audio/mp3" />
+	</audio>
+</body>
+</html>

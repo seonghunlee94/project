@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+
+<!-- My JS -->
+<script src="../js/subIndex.js" type="text/javascript"></script>
+<script src="../js/splash.js" type="text/javascript"></script>
+<script src="../js/orientation.js" type="text/javascript"></script>
+
+<!-- My css -->
+<link href="../css/basic.css" rel="stylesheet" />
+<link href="../css/font.css" rel="stylesheet" />
+<link href="../css/main.css" rel="stylesheet" />
+<link href="../css/orientation.css" rel="stylesheet" />
+<link href="../css/splash.css" rel="stylesheet" />
+<title>KKWALLA</title>
+</head>
+<body class="no-drag">
+	<div id="cover">가로모드는 지원하지 않습니다</div>
+	<!-- menu overlay -->
+	<div id="game_modal" class="overlayBG">
+		<a href="#" class="cancel"></a>
+		<div id="game_layout" class="overlay_base_param">
+			<h2 id="game_title" class="menu_title">게임을 골라보자</h2>
+			<div class="games">
+				<div class="game_list">
+					<h2>높이 높이</h2>
+					<img id="blockGame" class="gameThumbnail"
+						src="../gameImg/blockGame.gif" alt="blockGame" />
+				</div>
+				<div class="game_list">
+					<h2>멀리 멀리</h2>
+					<img id="jumpGame" class="gameThumbnail" src="../gameImg/jumpGame.gif"
+						alt="jumpGame" />
+				</div>
+				<div class="game_list">
+					<h2>혼란한 랜덤 미션</h2>
+					<img id="randGame" class="gameThumbnail" src="../gameImg/randGame.gif"
+						alt="randGame" />
+				</div>
+				<div class="game_list">
+					<h2>오.꽐.누</h2>
+					<img id="spinGame" class="gameThumbnail" src="../gameImg/spinGame.gif"
+						alt="spinGame" />
+				</div>
+			</div>
+			<a href="#" id="exit">&times;</a>
+		</div>
+	</div>
+
+	<div id="pron_modal" class="overlayBG">
+		<a href="#" class="cancel"></a>
+		<div id="pron_layout" class="overlay_base_param">
+			<div class="menu_title">
+				발음 게임으로<br />꽐라도를 측정해보자
+			</div>
+			<h5 id="subtitle">제시어마다 난이도가 달라!</h5>
+
+			<div class="level">
+				<div id="famousSaying" class="level_Item_Box">
+					<h2>술명언</h2>
+					<img class="prontest_thumbnail" src="../img/cheers.svg" />
+					<h5>쉬움</h5>
+					<div class="lvIcon_box">
+						<img class="lvIcon" src="../img/level_Icon.svg" />
+					</div>
+				</div>
+
+				<div id="song" class="level_Item_Box">
+					<h2>노래가사</h2>
+					<img class="prontest_thumbnail" src="../img/kpop.svg" />
+					<h5>보통</h5>
+					<div class="lvIcon_box">
+						<img class="lvIcon" src="../img/level_Icon.svg" /> <img
+							class="lvIcon" src="../img/level_Icon.svg" />
+					</div>
+				</div>
+
+				<div id="announcer" class="level_Item_Box">
+					<h2>아나운서</h2>
+					<img class="prontest_thumbnail" src="../img/news-anchor.svg" />
+					<h5>어려움</h5>
+					<div class="lvIcon_box">
+						<img class="lvIcon" src="../img/level_Icon.svg" /> <img
+							class="lvIcon" src="../img/level_Icon.svg" /> <img class="lvIcon"
+							src="../img/level_Icon.svg" />
+					</div>
+				</div>
+			</div>
+			<a href="#" id="exit">&times;</a>
+		</div>
+	</div>
+	
+	<section id="container">
+		<header>
+			<img id="sound" src="../img/soundOn.svg" />
+		</header>
+		<!-- main  -->
+		<div class="msgbubble">
+			<div id="message"></div>
+		</div>
+		<!-- <section id="char_ratio"> -->
+		<label class="characterBox"> <input id="camera" type="file"
+			name="camera" capture="camera" accept="image/*" /> <img
+			id="character" src="../img/dog.svg"
+			onerror="this.src='../img/error_pic.svg'" />
+		</label>
+		<!--   </section> -->
+		<!-- menu -->
+		<div id="menu">
+			<a id="selectGame" class="menuBtn" href="#game_modal">
+				<h3 class="title">선택 게임</h3>
+			</a> <a id="pronTest" class="menuBtn" href="#pron_modal">
+				<h3 class="title">발음 분석</h3>
+			</a>
+			<div id="randomTest" class="menuBtn">
+				<h3 class="title">랜덤 게임</h3>
+			</div>
+		</div>
+		<img id="logo" src="../img/logo.svg" alt="../img/logo.png" />
+	</section>
+	<!-- container end -->
+	<img id="bg_top" src="../img/indexBgTop.png" alt="배경화면" />
+	<audio id="clickAudio" src="../audio/click.wav"></audio>
+	<iframe allow="autoplay" hidden="true"></iframe>
+	<audio id="mainAudio" autoplay loop volume="0.3">
+		<source src="../audio/mainBGM.mp3" type="audio/mp3"/>		
+	</audio>
+	<canvas></canvas>
+</body>
+</html>

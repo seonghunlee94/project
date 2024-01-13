@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- My JS -->
+<script src="../js/results.js" type="text/javascript"></script>
+<script src="../js/splash.js" type="text/javascript"></script>
+<script src="../js/orientation.js" type="text/javascript"></script>
+
+<!-- My CSS -->
+<link href="../css/basic.css" rel="stylesheet" />
+<link href="../css/font.css" rel="stylesheet" />
+<link href="../css/result.css" rel="stylesheet" />
+<link href="../css/orientation.css" rel="stylesheet"/>
+
+<title>KKWALLA</title>
+</head>
+<body>
+<div id="cover">가로모드는 지원하지 않습니다</div>
+    <img id="sound" src="../img/soundOn.svg" />
+    
+    <section id="container">
+      <div id="header">
+        <h1 id="resultText">분석 결과</h1>
+        <img id="shareBtn" src="../img/shareButton_circle.svg">
+      </div>
+      <!-- header end -->
+      <main id="cardFrame" >
+        <div id="resultCard" class="card_contents">
+          <div id="charBox">
+            <img id="charImg" alt="결과 이미지" src="../charImg/개꽐라.png" onerror="this.src='../img/error_normal.svg'">
+          </div>
+          <div class="textContainer">
+            <div class="titlebox">
+              <h2 id="ranking">로딩중</h2>
+              <h4 id="pronMsgMain">야야</h4>
+            </div>
+            <div class="msgbox">
+            <h5 id="pronMsgSub">조금만 기다려달라..</h5>
+            </div>
+          </div>
+          <div class="rank">
+            <div id="rankBar" class="rankBar">
+              <img src="../img/dog-sleep-white.svg" id="rankdog">
+              <picture class="rankIcons">
+                <img src="../img/beer1.svg" id="alcLv1">
+                <img src="../img/beer2.svg" id="alcLv2">
+                <img src="../img/beer3.svg" id="alcLv3">
+                <img src="../img/beer4.svg" id="alcLv4">
+                <img src="../img/beer5.svg" id="alcLv4">
+              </picture>
+            </div>
+            <div class="rankTable">
+              <div class="rankcell">
+                <img id="foodImg" src="../img/logo.svg">
+              </div>
+              <div class="rankcell">
+                <h5>추천함</h5>
+                <h3 id="foodTitle">???</h3>
+              </div>
+              <div class="rankcell">
+                <h5>취기</h5>
+                <h3 id="alcScore">??</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <nav class="nav">
+        <img id="home" src="../img/home.svg">
+      </nav>
+    </section>
+	<!-- background -->
+	<img id="bg_top" alt="" src="../img/resultBgTop.png">
+	<canvas></canvas>
+	<iframe allow="autoplay" hidden="true"></iframe>
+	<audio id="mainAudio" autoplay loop">
+	  <source src="" type="audio/mp3"/>		
+	</audio>
+  </body>
+</html>
