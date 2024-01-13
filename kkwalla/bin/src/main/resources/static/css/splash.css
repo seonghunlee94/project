@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+	margin:0; /* 초기화 */
+	display: flex;           /* 화면 중앙 */
+	justify-content: center; /* 화면 중앙 */
+	text-align: center;  /* 글자 중앙 */	
+	
+	background: #ee9f01;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+#logo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -64px;
+  margin-top: -130px;
+}
+
+.instructions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'jua', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -130px;
+  width: 64px;
+  height:110px;
+  margin-bottom:-7px; 
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.5,.45)     infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 18s;
+}
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(80px,0,0);
+  }
+}

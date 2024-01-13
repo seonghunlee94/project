@@ -1,0 +1,299 @@
+body {
+	-webkit-tap-highlight-color:transparent; /* 드래그 금지 */
+	margin:0; /* 초기화 */
+	justify-content: center; /* 화면 중앙 */
+	text-align: center;  /* 글자 중앙 */
+	padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    background: #1A171C;	
+    overflow: hidden;
+}
+
+#MSG {
+	font-family: '봉숭아틴트';
+	position: absolute; /* 캔버스를 토대로 위치를 지정할 수 있게 조정 */
+	width:100%;
+	margin-top:20%; /* 캔버스 위로 공간 만들기 */
+	left: 50%;
+  	transform: translateX(-50%);
+  	font-size: 35px;
+  	font-weight:1000;
+  	color: white;
+  	
+}
+
+#canvas {
+	position: absolute; /* 캔버스를 부모객체로 인식 */
+	margin-top:50%; /* 캔버스 위로 공간 만들기 */
+	
+}
+
+#back, #replay, #main {
+	position: absolute; /* 캔버스를 토대로 위치를 지정할 수 있게 조정 */
+	bottom:0; /* 위치 설정 */
+	font-size: 10px;
+	font-weight: 1000;
+}
+
+#back {
+	left: 0; /* 위치 설정 */
+}
+
+#main {
+	left: 50%;  /* 위치 설정 */
+  	transform: translateX(-50%);
+}
+
+#result {
+	color: white;
+	font-size: 50px;
+  	font-weight:1000;
+  	margin-top:90%;
+  	text-shadow: 0 0 21px #fff, 0 0 42px #E784DB,0 0 82px #E784DB, 0 0 92px #E784DB, 0 0 102px #E784DB;
+  	display:none;
+}
+
+#replay {
+	right:0; /* 위치 설정 */
+}
+
+.star {
+	background-color:#E784DB;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.glow1 {
+  background: #E784DB;
+  animation: glitter1 3s infinite;
+}
+.glow2 {
+  background: #E784DB;
+  animation: glitter2 5s infinite;
+}
+.glow3 {
+  background: #E784DB;
+  animation: glitter3 7s infinite;
+}
+.glow4 {
+  background: #E784DB;
+  animation: glitter3 9s infinite;
+}
+
+#one {
+	width: 2px;
+	height: 2px;
+	top: 7%;
+	left: 6%;
+    animation-delay: -2s;
+}
+#two {
+	width: 4px;
+	height: 4px;
+	top: 10%;
+	left: 16%;
+    animation-delay: -2s;
+}
+#three {
+	width: 4px;
+	height: 4px;
+	top: 8%;
+	left: 25%;
+    animation-delay: -2s;
+}
+#four {
+	width: 4px;
+	height: 4px;
+	top: 3%;
+	left: 36%;
+    animation-delay: -2s;
+}
+#five {
+	width: 4px;
+	height: 4px;
+	top: 7%;
+	left: 50%;
+    animation-delay: -2s;
+}
+#six {
+	width: 4px;
+	height: 4px;
+	top: 5%;
+	left: 77%;
+    animation-delay: -2s;
+}
+#seven {
+	width: 4px;
+	height: 4px;
+	top: 2%;
+	left: 88%;
+    animation-delay: -2s;
+}
+#eight {
+	width: 2px;
+	height: 2px;
+	top: 9%;
+	left: 93%;
+    animation-delay: -2s;
+}
+#nine {
+	width: 4px;
+	height: 4px;
+	top: 14%;
+	left: 12%;
+    animation-delay: -2s;
+}
+#ten {
+	width: 3px;
+	height: 3px;
+	top: 17%;
+	left: 45%;
+    animation-delay: -2s;
+}
+#eleven {
+	width: 2px;
+	height: 2px;
+	top: 13%;
+	left: 80%;
+    animation-delay: -2s;
+}
+#twelve {
+	width: 4px;
+	height: 4px;
+	top: 23%;
+	left: 7%;
+    animation-delay: -2s;
+}
+#thirteen {
+	width: 2px;
+	height: 2px;
+	top: 24%;
+	left: 18%;
+    animation-delay: -2s;
+}
+#fourteen {
+	width: 4px;
+	height: 4px;
+	top: 22%;
+	left: 73%;
+    animation-delay: -2s;
+}
+#fifteen {
+	width: 2px;
+	height: 2px;
+	top: 21%;
+	left: 91%;
+    animation-delay: -2s;
+}
+
+@keyframes glitter1 {
+    0% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    25% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+}
+@keyframes glitter2 {
+    0% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    25% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+}
+@keyframes glitter3 {
+    0% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    25% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+}
+
+@keyframes glitter4 {
+    0% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    25% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #FFAEBC;
+    }
+}
+
+.no-drag {
+	-ms-user-select:none;
+	-moz-user-select:-moz-none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+}

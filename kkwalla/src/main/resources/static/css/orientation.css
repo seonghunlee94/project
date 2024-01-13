@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+	-webkit-tap-highlight-color: transparent;
+	margin:0;
+}
+
+#cover {
+	z-index: 101;
+	height:100%;
+	width:100%;
+	font-size:50px;
+	background:black;
+	position:absolute;
+	display:none;
+	color:white;
+	font-family: '봉숭아틴트';	
+}
+
+.no-drag{
+	-ms-user-select:none;
+	-moz-user-select:-moz-none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+}

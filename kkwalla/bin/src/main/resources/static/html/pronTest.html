@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- My JS -->
+<script src="../js/pronTest.js" type="text/javascript"></script>
+<script src="../js/orientation.js" type="text/javascript"></script>
+
+<!-- My CSS -->
+<link href="../css/pronTest.css" rel="stylesheet" />
+<link href="../css/basic.css" rel="stylesheet" />
+<link href="../css/font.css" rel="stylesheet" />
+<link href="../css/orientation.css" rel="stylesheet"/>
+
+<!-- recorder library -->
+<script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OpusMediaRecorder.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/encoderWorker.umd.js"></script>
+
+<title>KKWALLA</title>
+</head>
+<body>
+  <div id="cover">가로모드는 지원하지 않습니다</div> 
+    <div class="wave">
+      <div class="container" id="container">
+        <!-- main 콘텐츠 -->
+        <main id="main">
+          <section id="title">
+            <h4>아래 문장을 <span id="second">?</span>초 안에 읽어보자!</h4>
+          </section>
+          <section>
+            <div class="prontest_msgbox">
+              <h3 id="pronTestMessage">주어진 시간 안에 발음을 해주세요</h3>
+              <h5 id="info"></h5>
+            </div>
+            <div class="progress">
+              <span data-charge="100"></span>
+            </div>
+          </section>
+          <button id="record" class="startButton">시작</button>
+        </main>
+        <nav class="nav">
+          <img id="home" src="../img/home.svg" alt="home" />
+        </nav>
+      </div>
+    </div>
+</body>
+</html>

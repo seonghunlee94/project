@@ -1,0 +1,378 @@
+[
+    {
+      "faceMSG": "화가 나 있으신 것 같은데, 게임 한 판 고?",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "화났을 땐 소주에 매콤한 안주 어때?",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "화났어? 시원한 맥주와 달달한 소스 들어간 메뉴 필요한 듯? 게임으로 기분 털어버리기! ",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "게임 옆 사람 시켜봐! 얼굴 보고 화풀기^^ ",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "함께 하는 사람들과 짠! 하고, 화는 저멀리 던져버려~",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "나쁜 걸 참다보면 좋은 걸 잊는 법! 부정적인 감정, 소주 한잔으로 싹 씻어버리자구요!",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "화는 결국 자신에게 겨누는 화살! '그럴 수도 있지~'라는 마인드로 웃어 넘겨요!",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "무슨 일로 그렇게 화가 나셨나요? 이 자리에서 속 시원히 다 털어놔도 좋아요.",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "화난 얼굴도 매력 넘치네.. 근데 당신은 웃는 얼굴이 훨씬 보기 좋아.",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "당신을 화나게 하는 것들이 당신의 인생의 자양분이 되어주기를.",
+      "emotion": "angry"
+    },
+    {
+      "faceMSG": "뭐가 그렇게 싫어? 난 너 좋은데, 화면에 술잔 딱 대! 짠~",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "혹시 소주가 쓰니? 달달한 사과류 와인 어때?",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "때론 인생이 쓰지? 그런 날은 소주가 더 달지! 살짝 텐션 업 해보자고~",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "내가 꿈 찾아 행복 찾아 하루하루 살아가다가",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "만나버린 괴로웠던 순간들 이 또한 다 지나가리라 ",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "피할 수 없다면 쨘!",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "네 원수를 네 몸과 같이 사랑하라~ 어떻게? 이런.. 일단 한잔!",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "씨앗이 썩어야 꽃을 피우듯, 너의 아픔이 달콤한 열매를 맺길! 잠시 이 시간 배에 물을 주자고~ ",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "증오는 양날의 검, 베이지 않게 마음 풀어! 나랑 재미난 ~ 게임 어때?",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "날 미워하지 말아요~ 나는 너가 좋아, 같이 놀아봐요~",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "오늘도 고생했지? 힐링 되는 시간 되길^^ ",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "싫으면 시집 가! 미안..ㅋㅋ 너가 행복했으면 좋겠어! 하고 싶은 게임 있어? 밑에 봐봐^^",
+      "emotion": "disgust"
+    },
+    {
+      "faceMSG": "친구랑 싸웠어? 자~ 숨 크게 쉬고 건배 후 화해의 원샷!  ",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "회사에 어려운 일 있어? 잔 채워! 즐기러 왔잖아, 마시고 잠시 잊자고!!",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "힘든 일 있으면, 술 게임 하면서 잠시 쉬어보기! 게임 생각보다 재밌다고~",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "무슨 걱정 있어? 쏘맥 황금 비율 알지? 이 또한 지나가리라 건배!!! 쏘맥 쨘! ",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "그대~ 아무 걱정하지 말아요~ 우리 함께 노래 합시다~ 내가 노래 부를테니 따라해볼래? 발음테스트 안에 있어!",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "주위를 둘러봐, 생각보다 너의 편이 많아~ 오늘 함께 술 마시고 게임하며 마음 달래보자고~",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "두려운 사실에 주목하면, 두려움은 점점 커지지!",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "더 중요한 일에 시선을 한번 돌려봐~",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "잠시 마음 달래보자, 우리 함께 한잔하고 게임하자!",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "누구야? 누가 걱정시켰어? 혼내줄게! ",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "격려가 될지 모르겠지만, 힘내! 우리가 함께 할게!",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "우리 잠시 숨 돌려보자^^ ",
+      "emotion": "fear"
+    },
+    {
+      "faceMSG": "웃고 있는 당신, 아름답다! 친구들과 칵테일 한 번 터뜨려보자고!!",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "캬아~ 기분에 취한다. 웃으니까 술이 더 맛난 듯~ 우리 랜덤 게임 시합 할래?",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "즐거울 때는 술 게임으로 더 달궈야지? 준비해 놨다고, 널 위한 게임을!  ",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "치얼스~ 오늘 달달한 분위기 어때? 좋아하는 사람에게 와인과 과일모듬 먹자고 데이트 신청해봐~",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "그렇게 자꾸 웃으면 반하나 안 반하나",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "지금 이 웃음꽃, 앞으로도 시들지 않기!",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "즐거운 이 분위기를 틈타서 발음 테스트 한번 어때?",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "주위를 둘러보세요! 당신의 웃음은 주변을 환하게 비춘답니다!",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "이게 꽃이야 사람이야?",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "거봐. 웃으니까 보기 좋잖아.",
+      "emotion": "laugh"
+    },
+    {
+      "faceMSG": "뭐라고? 잘 못 들었습니다ㅠ 나는 오늘 고기에 술 땡기는데? 너는 어때?",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "하하하, 웃겨 정말.  신나는데 분위기 있는데 가서 모히또 고?",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "너 수다 떠는 거 좋아하는구나? 발음 테스트에 노래 따라 말하기 내기 한 판?",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "응? 너 취했지? 너 혀 꼬여.. 안 되겠다, 발음 테스트에서 얼마나 취했는지 확인해보자! ",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "뭐? 나랑 대화하고 싶다고? 그래 게임 한판 해!",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "누구랑 말하는 중이야? 친구야? 에고 나는 심심한데, 나랑 게임 하자~",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "말 한 마디에 천냥 빚을 갚지~ 너의 따뜻한 말에 답례로 좋은 게임들을 선물해줄게! 화면 내려봐^^",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "쏴리여 쏴리, 못들었당게! 발음 테스트 한 번 해보랑게!",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "쉿! 그만 말하고, 한잔혀! ",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "쉿! 나 게임 할거니까, 같이 놀려면 게임하든가~",
+      "emotion": "talking"
+    },
+    {
+      "faceMSG": "오~ 포커페이스의 달인?  게임 잘하겠어~",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "아무리 포커페이스여도 난 알 수 있어. 넌 심심해! 게임 한판해 ㅋㅋ  미안... 뜬금 없었지?",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "오늘 하루 따분했어? 게임으로 몸 풀어보자고~ ",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "네가 무슨 생각 하고 있는지 맞춰볼게. 정답은... 아무 생각 안하고 있지!?",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "너의 무표정, 아직 술과 게임을 즐기지 못하는구나! 내가 널 위해 게임 가르쳐줄게~ 화면 내려봐^^",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "무슨 생각하고 있는지 궁금한데? 술 한잔하면서 나랑 게임할래?",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "발음테스트 해볼래? 얼굴 근육도 움직여야 건강미 넘치지~",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "나는 웃는 얼굴이 보기 좋던데~ 게임 하면서 같이 웃자~",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "지루하지? 화면 내리면 재밌는 거 많다~",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "카메라 앞이라 굳었나? 긴장 풀고 다시 찍어봐~",
+      "emotion": "neutral"
+    },
+    {
+      "faceMSG": "너의 눈물은 이슬이 될거야! 이슬 잔에 채우고 미래를 향해 쨘~   ",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "보이지 않지만, 은하수들이 너와 함께 울고 있어! 야경 보이느 곳에서 별 보며 한 잔?",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "기분 전환 겸 나랑 게임할래?",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "싫어하지마 No No No 혼자가 아냐 술 앤 겜!",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "슬픈 일 있어요? 그럼 마음껏 슬퍼해도 좋아요. 슬픔을 해소하는 아주 좋은 방법이랍니다.",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "술 한잔에 내 슬픔 모두 담아, 원샷",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "쓰러져도 괜찮아요. 무너지지만 말아줘요.",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "무슨 일로 이리도 슬퍼하나요? 지금 이 자리에서 다 쏟아내고 훌훌 털어내기!",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "살다보면 기분 울적한 날도 있는 거지. 그러니까 너무 스트레스 받지 말자!",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "힘이 들 때, 더 힘내면 더 힘들어",
+      "emotion": "sad"
+    },
+    {
+      "faceMSG": "꽐라스 보고 놀랬니? 발음 테스트랑 게임 테스트 해보면 얼마나 놀래려고 벌써 그래?ㅎㅎ",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "서프라이즈! 오늘 술은 내가 산다~ 농담이야 속았징?ㅋㅋ  대신 오늘 게임은 내가 책임진다! 화면 밑으로 내려봐!!",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "놀랬어? 나도 놀랬는데, 너의 미모에.. 하하하  술 취한 내 외모는.. \"술 취한 원숭이\"ㅠㅠ? 농담이고 이거 한 번 마셔봐ㅋㅋ",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "오 놀랬구나? 옆에 있는 친구 한 번 놀래키기 ㅋㅋ",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "오늘 소중한 사람에게 서프라이즈 해볼래?",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "왜 놀랬어? 궁금하다! 술 한잔 하면서 말해줭!",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "에이 그 정도에 놀라면 어떡하니? 내 주량 보면 놀라 엎어지겠다! ",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "너가 더 놀래도록 술과 게임 소개해줄게! 밑으로 내려가서 게임들 해봐~",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "그만 놀래 친구야! 꽐라스에 놀라운 게 얼마나 많이 남았는데~",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "하루 하루 매일 놀랍기를~ 치얼스!!",
+      "emotion": "surprise"
+    },
+    {
+      "faceMSG": "이런 기분엔 가볍게 맥주 한 잔!",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "당신의 표정에서 긍정적인 에너지가 느껴진다!",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "오늘 좋은 일 있었어? ",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "밝은 표정이네! 기분 좋은 일 있어? ",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "잘 지냈어? 얼굴 폈네! ",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "의미심장한 미소인데? 혹시 복권 당첨?!",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "오.. 혼자 뭐 맛있는 거 먹었나! 나도 알려줘!",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "기분 좋을 때 하면 더 재미있는 게임을 준비했어! 한번 볼래?",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "기분 좋아 보이는데~? 가볍게 맛있는 저알콜 음료 어떨까?",
+      "emotion": "smile"
+    },
+    {
+      "faceMSG": "표정이 좋아 보이는데 좋은 꿈 꿨어?",
+      "emotion": "smile"
+    }
+]

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#runaway-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 5rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+}
